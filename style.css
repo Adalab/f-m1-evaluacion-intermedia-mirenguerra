@@ -19,19 +19,34 @@ header{
     width: 100%;
     color: #4a4a4a;
     background-color: white;
+    position: fixed;
     
 }
 
-ul{
-    display: flex;
-
-
+.logo{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
 }
 
-li{
+.menu{
+    width:100%;
+    font-size: 16px;
+    position: relative;
+    background-color:white;
+}
+
+.menu_ul{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu_li{
     flex-direction: row;
     padding: 10px;
-    justify-content: center;
+    
 
 }
 
@@ -39,4 +54,7 @@ li{
     color: #FFFFFF;
     text-align: center;
     margin: auto;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
 }
