@@ -1,0 +1,42 @@
+/* La paleta de colores usados son:
+#4a4a4a (Texto del menú)
+#3CDBC0 (color de fondo de la página)
+#FFFFFF (Color de texto de "Creando diversidad digital") */
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style-type: none;
+}
+
+body{
+    background-color:#3CDBC0;
+}
+
+header{
+    width: 100%;
+    color: #4a4a4a;
+    background-color: white;
+    
+}
+
+ul{
+    display: flex;
+
+
+}
+
+li{
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.main{
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+}
