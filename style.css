@@ -7,26 +7,31 @@
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
-    list-style-type: none;
+    /* border: 1px blue solid; */
+    
 }
 
 body{
     background-color:#3CDBC0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #4a4a4a;
+    min-height: 100vh;
 }
 
 header{
     width: 100%;
-    color: #4a4a4a;
     background-color: white;
     position: fixed;
+    text-align: center;
     
 }
 
 .logo{
-    margin: auto;
-    text-align: center;
+    display: inline-block;
     padding-top: 10px;
+    width: 155px;
+    height: 61px;
 }
 
 .menu{
@@ -39,29 +44,28 @@ header{
 .menu_ul{
     display: flex;
     justify-content: center;
-    
+    list-style-type: none;
     
 }
 
 .menu_li{
     flex-direction: row;
     padding: 10px;
-    
-
+    text-decoration: none;
+    color: #4a4a4a;
 }
+
 
 .main{
-    position: relative;
-}
-
-.text_main{
     color: #FFFFFF;
-    text-align: center;
-    margin: auto;
     font-size: 30px;
+    font-weight: 700; 
+    display:flex;
     text-align: center;
-    position: absolute;
-    height: 50%;
-    display: block;
-
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;   
+    line-height: 1.4;
+    top:50%;
+    left:50%;
 }
