@@ -56,10 +56,13 @@ header{
 }
 
 /* MAIN */
-
+main{
+    width: 100%;
+    position: relative;
+}
 .title{
     height: 100vh;
-    width: 100%;
+    width: 250px;
     color: #FFFFFF;
     font-size: 30px;
     font-weight: 700; 
@@ -69,4 +72,8 @@ header{
     justify-content: center;
     text-transform: capitalize;   
     line-height: 1.4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0)
 }
