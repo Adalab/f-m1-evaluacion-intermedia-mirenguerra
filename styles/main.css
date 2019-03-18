@@ -64,17 +64,18 @@ header{
     header{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        padding: 20px 30px;
     }
 
     .logo{
         margin: 20px 0 20px 30px;
+        padding: 0;
     }
 
     .menu {
-        margin: 10px;
         align-content: center;
         justify-content: flex-end;
-
     }
 }
 
