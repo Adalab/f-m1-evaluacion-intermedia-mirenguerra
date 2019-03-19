@@ -21,10 +21,12 @@ body{
 
 /* HEADER */
 
-header{
+.header-content{
     width: 100vw;
     background-color: white;
     position: fixed;
+    top: 0;
+    left: 0;
     text-align: center;   
 }
 
@@ -45,7 +47,8 @@ header{
 .menu__list{
     display: flex;
     justify-content: center;
-    list-style-type: none;    
+    list-style-type: none; 
+    padding: 10px 0 13px;   
 }
 
 .menu__element{
@@ -61,7 +64,7 @@ header{
     .menu__element{
         font-size: 16px;
     }
-    header{
+    .header-content{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -69,7 +72,6 @@ header{
     }
 
     .logo{
-        margin: 20px 0 20px 30px;
         padding: 0;
     }
 
@@ -83,8 +85,7 @@ header{
 
 /* MAIN */
 
-main{
-    width: 100%;
+.main-content{
     position: relative;
 }
 .title{
